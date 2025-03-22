@@ -1,0 +1,147 @@
+.card1:hover{
+    background-color: rgb(143, 190, 244);
+}
+
+.card1::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent 0 5px,
+        rgb(143,190,244)
+    );
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show Zig-Zag on Hover */
+.card1:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+.card2:hover{
+    background-color: rgb(143, 190, 244);
+}
+
+.card2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent 0 5px,
+        rgb(143,190,244)
+    );
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show Zig-Zag on Hover */
+.card2:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+.card3:hover{
+    background-color: rgb(143, 190, 244);
+}
+
+.card3::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent 0 5px,
+        rgb(143,190,244)
+    );
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show Zig-Zag on Hover */
+.card3:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.card4:hover{
+    background-color: rgb(143, 190, 244);
+}
+
+.card4::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent 0 5px,
+        rgb(143,190,244)
+    );
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show Zig-Zag on Hover */
+.card4:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.card5:hover{
+    background-color: rgb(143, 190, 244);
+}
+
+.card5::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent 0 5px,
+        rgb(143,190,244)
+    );
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show Zig-Zag on Hover */
+.card5:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.card6:hover{
+    background-color: rgb(143, 190, 244);
+}
+
+.card6::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent 0 5px,
+        rgb(143,190,244)
+    );
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Show Zig-Zag on Hover */
+.card6:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
